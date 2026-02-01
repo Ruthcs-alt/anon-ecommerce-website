@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>AMRUTH Ecommerce Store</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <header>
+        <h1>AMRUTH Ecommerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cart.html">Cart</a><span id="itemCount"></span></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+      <section class="deck col-1">
+        <div class="card">
+          <header>
+            <h1>Your order form</h1>
+          </header>
+          <div class="copy">
+              <ol>
+                <li>Click the "X" next to any item to remove it from your cart</li>
+              </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="deck col-1">
+        <div class="card">
+            <table id="cart">
+                <thead>
+                    <tr>
+                        <th>Remove</th>
+                        <th>Quantity</th>
+                        <th>Item</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+            </table>
+        </div>
+      </section>
+
+      <section>
+        <h1>Thank you for shopping with AMRUTH Ecommerce!</h1>
+      </section>
+      <!-- <section id = "order-recap">
+        <h2>Order Summary</h2>
+        <table class="order-summary">
+        </table>
+      </section> -->
+      <h2>Payment Information</h2>
+      <section class = "payment-form">
+        <form action="new-payment-info">
+          <fieldset>
+            <legend>Thank you for entering your details as requested for each field. Please click sumbit when done, only once. </legend>
+            <ul class ="label-order">
+            <li><label for="nameCustomer">Full Customer Name:</label>
+            <input name="nameCustomer" type="text">
+            <li><label for="streetAddress">Street Address:</label></li>
+            <input name="streetAddress" type="text">
+            <li><label for="city">City:</label>
+            <input name="city" type="text"></li>
+            <li><label for="state">State:</label>
+            <input name="state" type="text"></li>
+            <li><label for="zipCode">Zip Code:</label>
+            <input name="zipCode" type="text"></li>
+            <li><label for="phoneNumber">Phone Number:</label>
+            <input name="phoneNumber" type="text"></li>
+            <li><label for="creditCard">Credit Card number:</label>
+            <input name="creditCard" type="number"></li>
+          </ul>
+          </fieldset>
+        </form>
+        <a href="success.php">process order</a></li>
+      </section>
+      <section class="button">
+        <button class ="shrink" id="order-button">Process Order </button>
+      </section>
+
+    </main>
+
+    <footer>
+        <p>&copy;2023 AMRUTH Ecommerce store</p>
+    </footer>
+
+    <script src='js/app.js'></script>
+    <script src='js/cart.js'></script>
+</body>
+
+</html>
