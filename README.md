@@ -1,44 +1,46 @@
-# Anon - An eCommerce Website
+ 
+E-Commerce Web Application (PHP)
+Overview
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/anon-ecommerce-website)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/anon-ecommerce-website?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/anon-ecommerce-website?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/3l8Lob4ysI0?style=social)](https://youtu.be/3l8Lob4ysI0)
+This project is a full-stack e-commerce web application developed using PHP and MySQL, built on top of an existing open-source frontend template.
 
-Anon is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript.
+Frontend Source Attribution
 
-## Demo
+The frontend design (HTML, CSS, and base JavaScript) is based on:
 
-![Anon Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![Anon Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+Original Developer: codewithsadee
 
-## Prerequisites
+Repository: anon-ecommerce-website
 
-Before you begin, ensure you have met the following requirements:
+The original project provides a static e-commerce UI only.
+Full credit for the design and layout belongs to the original developer.
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+I do not claim ownership of the frontend template.
 
-## Installing Anon
+My Contributions
 
-To install **Anon**, follow these steps:
+I independently developed and integrated all backend functionality, including:
 
-Linux and macOS:
+PHP backend architecture
 
-```bash
-sudo git clone https://github.com/codewithsadee/anon-ecommerce-website.git
-```
+MySQL database design and integration
 
-Windows:
+User registration and login system (with password hashing & sessions)
 
-```bash
-git clone https://github.com/codewithsadee/anon-ecommerce-website.git
-```
+Service order cart functionality (add, update, remove, total calculation)
 
-## Contact
+Order processing and checkout logic
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+Secure server-side validation
 
-## License
+This project transforms the original static template into a fully functional dynamic e-commerce system.
 
-This project is **free to use** and does not contains any license.
+Technologies
+
+PHP
+HTML
+Apache(WAMPP)
+
+MySQL
+
+HTML5 / CSS3 / JavaScript
