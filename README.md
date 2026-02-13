@@ -1,5 +1,5 @@
  
-E-Commerce Web Application (PHP)
+E-Commerce Website (PHP)
 Overview
 
 This project is a full-stack e-commerce web application developed using PHP and MySQL, built on top of an existing open-source frontend template.
